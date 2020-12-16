@@ -1,4 +1,4 @@
-from cloudmusic_weapi.cloudmusic_weapi import search
+from cloudmusic.weapi import search
 import argparse
 import sys
 
