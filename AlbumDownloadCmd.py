@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 from cloudmusic.weapi import search
 import argparse
 import sys
