@@ -3,7 +3,7 @@ import http.cookiejar
 from .debug import ls,print_json
 from .encrypt import Encrypt_post, MD5
 import os,re,ssl,bs4,difflib,json
-ssl._create_default_https_context = ssl._create_unverified_context
+#ssl._create_default_https_context = ssl._create_unverified_context
 
 cookie = http.cookiejar.CookieJar()
 handler = urllib.request.HTTPCookieProcessor(cookie)
